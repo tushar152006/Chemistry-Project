@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absorption and Emission Spectrum</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Absorption and Emission Spectrum</h1>
+    </header>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>Absorption and emission spectra provide insight into atomic structures by analyzing how atoms absorb and emit light at specific wavelengths. Below you will find explanations, formulas, and interactive graphs.</p>
+    </section>
+
+    <section id="spectrum-info">
+        <h2>Spectrum Types</h2>
+        <h3>Absorption Spectrum</h3>
+        <p>Explanation of absorption spectrum.</p>
+        <h3>Emission Spectrum</h3>
+        <p>Explanation of emission spectrum.</p>
+    </section>
+
+    <section id="formulas">
+        <h2>Formulas</h2>
+        <p><strong>Energy of Photon:</strong> E = hν = hc/λ</p>
+        <p><strong>Wavelength (λ):</strong> λ = c/ν</p>
+        <p>Where E is energy, h is Planck's constant, ν is frequency, c is speed of light, and λ is wavelength.</p>
+    </section>
+
+    <section id="interactive-graph">
+        <h2>Interactive Graph</h2>
+        <label for="wavelength-input">Enter Wavelength (nm): </label>
+        <input type="number" id="wavelength-input" placeholder="500">
+        <button onclick="plotSpectrum()">Plot Spectrum</button>
+        <canvas id="spectrumChart"></canvas>
+    </section>
+
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
